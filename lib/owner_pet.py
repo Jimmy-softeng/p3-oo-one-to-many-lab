@@ -13,8 +13,7 @@ class Pet:
         self.owner=owner
 
         Pet.all.append(self)
-
-
+        
 class Owner:
     def __init__(self,name):
         self.name=name
